@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBubbleSort", "MyBubbleSort\MyBubbleSort.csproj", "{7AD8D7EA-FA28-4263-A7C7-BA64CD9FF056}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySelectionSort", "MySelectionSort\MySelectionSort.csproj", "{C2A64E02-E6A1-4B97-B1DB-C78BCFD848E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperLib", "HelperLib\HelperLib.csproj", "{C7AD61E2-E383-403F-A580-CFD94DF2245B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7AD8D7EA-FA28-4263-A7C7-BA64CD9FF056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AD8D7EA-FA28-4263-A7C7-BA64CD9FF056}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AD8D7EA-FA28-4263-A7C7-BA64CD9FF056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A64E02-E6A1-4B97-B1DB-C78BCFD848E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A64E02-E6A1-4B97-B1DB-C78BCFD848E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A64E02-E6A1-4B97-B1DB-C78BCFD848E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A64E02-E6A1-4B97-B1DB-C78BCFD848E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AD61E2-E383-403F-A580-CFD94DF2245B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AD61E2-E383-403F-A580-CFD94DF2245B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AD61E2-E383-403F-A580-CFD94DF2245B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AD61E2-E383-403F-A580-CFD94DF2245B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

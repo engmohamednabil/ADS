@@ -1,4 +1,5 @@
 ﻿using System;
+using HelperLib;
 
 namespace MyBubbleSort
 {
@@ -20,15 +21,9 @@ namespace MyBubbleSort
                         myArray[k-1] = temp;
                     }
                 }
-                display(myArray);
+                Helpers.displayArrayData(myArray);
                 Console.WriteLine();
             }
-            Console.ReadLine();
-        }
-        private static void display(int[] myArray)
-        {
-            for (int i = 0; i < myArray.Length; i++)
-                Console.Write(myArray[i].ToString() + " ");
         }
     }
 }
