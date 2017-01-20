@@ -6,7 +6,7 @@ namespace MyInsertionSort
     {
         static void Main(string[] args)
         {
-            int[] myArray = { 20 , 8 , 2 , 7 , 15 };
+            int[] myArray = Helpers.createRandomArray(10);
             int temp, x , y;
             for (int i = 1; i < myArray.Length; i++)
             {
