@@ -7,7 +7,7 @@ namespace MySelectionSort
         static void Main(string[] args)
         {
             int temp, min , replacedIx=0;
-            int[] myArray = { 3 , 9 , 5 , 8 , 7 , 66 , 80 , 22 , 30};
+            int[] myArray = Helpers.createRandomArray(10);
             for (int j = 0; j < myArray.Length; j++)
             {
                 min = myArray[j];
