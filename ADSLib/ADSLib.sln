@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySelectionSort", "MySelect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperLib", "HelperLib\HelperLib.csproj", "{C7AD61E2-E383-403F-A580-CFD94DF2245B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInsertionSort", "MyInsertionSort\MyInsertionSort.csproj", "{C8BCE430-94D2-416D-BF2E-AB67E448E316}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C7AD61E2-E383-403F-A580-CFD94DF2245B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7AD61E2-E383-403F-A580-CFD94DF2245B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7AD61E2-E383-403F-A580-CFD94DF2245B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BCE430-94D2-416D-BF2E-AB67E448E316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BCE430-94D2-416D-BF2E-AB67E448E316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BCE430-94D2-416D-BF2E-AB67E448E316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BCE430-94D2-416D-BF2E-AB67E448E316}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
